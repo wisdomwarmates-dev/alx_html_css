@@ -335,3 +335,43 @@ main section:nth-of-type(6) div > div > div:nth-of-type(even) {
   color: #5C5C5C;
   margin-bottom: 30px;
 }
+/* Footer section */
+footer {
+  background-color: #071629;
+  padding: 40px 80px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Footer layout */
+footer section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Logo styling */
+footer img {
+  height: 30px;
+}
+
+/* Social icons */
+footer i {
+  font-size: 20px;
+  margin: 0 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+footer i:hover {
+  color: #C271FF;
+}
+
+/* Copyright text */
+footer p {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 20px;
+  width: 100%;
+}
