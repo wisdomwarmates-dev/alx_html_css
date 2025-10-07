@@ -1,0 +1,124 @@
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #fff;
+  color: #fff;
+}
+
+/* Header styling */
+header {
+  background-color: transparent;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+nav img {
+  height: 30px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/* Hero section */
+main section:first-of-type {
+  background-image: url('../images/background.jpg'); /* Replace with actual image path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 120px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+main section:first-of-type h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+main section:first-of-type span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #C271FF;
+  margin: 0 10px;
+}
+
+main section:first-of-type button {
+  margin-top: 40px;
+  background-color: #C271FF;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* Learn from the pros section */
+main section:nth-of-type(2) {
+  background-color: #071629;
+  padding: 80px;
+  text-align: center;
+}
+
+main section:nth-of-type(2) h2 {
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+
+main section:nth-of-type(2) > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+main section:nth-of-type(2) img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+main section:nth-of-type(2) h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+main section:nth-of-type(2) p {
+  font-size: 14px;
+  color: #fff;
+}
