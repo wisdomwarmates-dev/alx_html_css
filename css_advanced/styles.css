@@ -156,3 +156,89 @@ main section:nth-of-type(3) p {
   font-size: 14px;
   opacity: 0.8;
 }
+/* Most popular tutorials section */
+main section:nth-of-type(4) {
+  background-color: #fff;
+  padding: 80px;
+  text-align: center;
+}
+
+main section:nth-of-type(4) h2 {
+  font-size: 32px;
+  margin-bottom: 60px;
+  color: #000;
+}
+
+main section:nth-of-type(4) h2 span {
+  color: #C271FF;
+}
+
+/* Video cards container */
+main section:nth-of-type(4) > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Individual video card */
+main section:nth-of-type(4) > div > div {
+  width: 22%;
+  background-color: #fff;
+  text-align: left;
+}
+
+/* Thumbnail image */
+main section:nth-of-type(4) img {
+  width: 100%;
+  border-radius: 8px;
+  position: relative;
+}
+
+/* Title and description */
+main section:nth-of-type(4) h3 {
+  font-size: 18px;
+  margin: 15px 0 10px;
+  color: #000;
+}
+
+main section:nth-of-type(4) p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+/* Author section */
+main section:nth-of-type(4) h4 {
+  font-size: 14px;
+  color: #C271FF;
+  margin-left: 10px;
+}
+
+main section:nth-of-type(4) > div > div > div:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+main section:nth-of-type(4) > div > div > div:nth-of-type(1) img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+/* Star rating */
+main section:nth-of-type(4) > div > div > div:nth-of-type(2) {
+  display: flex;
+  gap: 5px;
+  color: #C271FF;
+  margin-bottom: 10px;
+}
+
+/* Duration */
+main section:nth-of-type(4) > div > div > p:last-of-type {
+  font-size: 12px;
+  color: #C271FF;
+  font-weight: bold;
+}
