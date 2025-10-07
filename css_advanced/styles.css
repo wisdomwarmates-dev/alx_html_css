@@ -122,3 +122,37 @@ main section:nth-of-type(2) p {
   font-size: 14px;
   color: #fff;
 }
+/* Quote section */
+main section:nth-of-type(3) {
+  background-color: #C271FF;
+  color: #fff;
+  text-align: left;
+  padding: 60px 80px;
+  display: flex;
+  align-items: center;
+}
+
+main section:nth-of-type(3) img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 60px;
+}
+
+main section:nth-of-type(3) blockquote {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+main section:nth-of-type(3) h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+main section:nth-of-type(3) p {
+  font-size: 14px;
+  opacity: 0.8;
+}
